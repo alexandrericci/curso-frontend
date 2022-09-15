@@ -1,6 +1,5 @@
 # curso-frontend
 
-
 # Git
 ## Conceitos de versionamento
  - Histórico
@@ -24,9 +23,10 @@ https://git-scn.com/
 ## Criar conta no GitHub
 
 ## Clonar o projeto
+git clone https://github.com/alexandrericci/curso-frontend.git
 
 ## comits
- Informação de alteraçõa
+ Informação de alteração
  - após testado todo seu código
 
 ## GitFlow
