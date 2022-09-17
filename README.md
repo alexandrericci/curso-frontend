@@ -1,5 +1,6 @@
 # curso-frontend
 
+
 # Git
 ## Conceitos de versionamento
  - Histórico
@@ -28,6 +29,20 @@ git clone https://github.com/alexandrericci/curso-frontend.git
 ## comits
  Informação de alteração
  - após testado todo seu código
+ - git add *
+ - git commit -m "mensagem"
+ - git push (enviar alterações para o repositório)
+ - git pull (puxar / trazer alterações do GitHub para a minha máquina)
 
 ## GitFlow
 Fluxo do Git
+
+### Branchs
+são ramificações / paralelas
+
+- main / master (vai para produção, quando o projeto é publicado)
+- develop 
+- DOD Definition of Done: critérios de aceite
+- versionamento 0
+
+
