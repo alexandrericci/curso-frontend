@@ -43,7 +43,24 @@ são ramificações / paralelas
 - main / master (vai para produção, quando o projeto é publicado)
 - develop 
 - DOD Definition of Done: critérios de aceite
-- versionamento 0
+- versionamento 1.0.0
+
+git checkout -b dev (criar uma branch)
+git checkout master (mudar de branch)
+
 
 ### Merge
 Mescla de branchs
+Você pode precisar resolver conflitos manualmente
+
+
+git merge main
+
+### Pull Requests
+Mescla de branchs no repositório
+Permite code review
+O repositóri resolve os conflitos automaticamente 
+
+### configurar o GitFlow
+git flow init
+git flow feature start {nome-da-feature}
