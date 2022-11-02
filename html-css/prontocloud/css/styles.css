@@ -157,3 +157,42 @@ footer small {
 .cog-form__content h1 {
     text-align: center !important;
 }
+
+.cognito{
+    margin-left: 8%;
+}
+
+
+/* Moblie First */
+
+/*Tablet */
+@media (min-width: 769px) {
+
+    body {
+        background-color: teal;
+    }
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        width: 30vw;
+    }
+    article {
+        width: 70vw;
+    }
+    .coluna {
+        width: 50vw;
+        min-width: unset;
+}
+    }
+
+/* Smartphone */
+@media (max-width: 425px){
+    nav,
+    article,
+    .coluna {
+        width: 100%;
+        min-width: 320px;
+    }
+}
