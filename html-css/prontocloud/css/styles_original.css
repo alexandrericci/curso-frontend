@@ -17,7 +17,7 @@ body {
 .container {
     display: block;
     float: left;
-    padding: 0px;
+    padding: 0;
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
@@ -207,21 +207,20 @@ footer small {
     height: 60vh;
 }
 
-
-.legenda-container{
+.legenda-container {
     width: 30vw;
+    margin: 10vh 10vh 0 0;
     float: right;
-    margin:10vh 10vh 0 0;
 
-}
+} 
+
 
 .legenda {
     background-color: rgba(255, 255, 255, .6);
     padding: 20px;
     border-radius: 5px;
-    margin-bottom: 5rem;
-    
-    
+    border-bottom: 2rem; 
+    float:right; 
 }
 
 .legenda h5,
@@ -230,7 +229,7 @@ footer small {
     line-height: 150%;
 }
 
-.button-cta{
+.button-cta {
     border-radius: 25px;
     display: inline;
     background-color: orangered;
@@ -242,6 +241,5 @@ footer small {
     width: auto;
     text-decoration: none;
     font-weight: 300;
-    float: right;
+    float:right;
 }
-
