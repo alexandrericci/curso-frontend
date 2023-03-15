@@ -64,3 +64,9 @@ O repositóri resolve os conflitos automaticamente
 ### configurar o GitFlow
 git flow init
 git flow feature start {nome-da-feature}
+
+
+### url
+Uniform Resource Locator
+
+- URL amigavel: humanos e mecanismo de busca

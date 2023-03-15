@@ -10,25 +10,25 @@ body {
 
 .main-container {    
     display: block;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
+    overflow: hidden;
    }
 
 .container {
     display: block;
     float: left;
-    padding: 0px;
-    max-width: 100%;
-    width: 100%;
+    padding: 20px;
     margin: 0 auto;
     max-width: 1198px;
+    width: 98%;
 }
 
 header {
     background-color: #fff;
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
     border-bottom: 1px solid #254195;
 }
@@ -95,7 +95,7 @@ section {
     display: block;
     float: left;
     font-size: 1.5rem; /* equivalente a 15px */
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
 }
 section nav {
@@ -133,7 +133,7 @@ footer {
     background-color: #254159;    
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
 }
 
@@ -245,3 +245,31 @@ footer small {
     float: right;
 }
 
+#saiba-mais{
+    background-color: #eaeff3;
+    padding: 40px 0;
+}
+
+#saiba-mais p,
+#saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+dl {
+    margin: 20px 0;
+}
+
+dt {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
